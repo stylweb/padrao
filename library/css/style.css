@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/02/2015, 22:46:15
+    Author     : Rodolfo
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2014, 16:40:06
+    Author     : Rodolfo
+*/
+ul, li, h1, h2, h3, h4, p, div, section, body {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 90px;
+  text-align: center;
+  letter-spacing: 2px; }
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+h5 {
+  font-size: 26px; }
+  h5 span {
+    text-transform: uppercase; }
+
+.clear {
+  clear: both; }
+
+.content {
+  width: 1024px;
+  margin: 0 auto; }
+
+body {
+  background-color: white;
+  font-family: "Oswald", sans-serif;
+  color: black; }
+
+#header {
+  background-color: white; }
+  #header #header-nav {
+    height: auto;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 50px; }
+    #header #header-nav ul {
+      width: 100%;
+      height: auto;
+      text-align: center; }
+      #header #header-nav ul li {
+        display: inline-block;
+        font-size: 28px;
+        margin-left: 35px;
+        margin-right: 35px;
+        cursor: pointer; }
+        #header #header-nav ul li:hover {
+          text-decoration: underline; }
+
+#footer {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  text-align: center; }
+  #footer h5 {
+    color: black;
+    margin: 0;
+    font-size: 20px;
+    line-height: 50px; }
+
+/*# sourceMappingURL=style.css.map */
